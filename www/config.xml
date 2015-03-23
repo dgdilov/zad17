@@ -1,0 +1,36 @@
+
+<?xml version="1.0" encoding="windows-1251" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Даниел Дилов</name>
+<icon src="icon.png" />
+ <icon gap:density="ldpi" gap:platform="android" src="icon.png" />
+ <icon gap:density="mdpi" gap:platform="android" src="icon.png" />
+<icon gap:density="hdpi" gap:platform="android" src="icon.png" />
+<icon gap:density="xhdpi" gap:platform="android" src="icon.png" />
+<icon gap:platform="ios" height="57" src="icon.png" />
+ <icon gap:platform="ios" height="72" src="icon.png" />
+ <icon gap:platform="ios" height="114" src="icon.png" />
+<icon gap:platform="ios" height="144" src="icon.png" />
+<icon gap:platform="blackberry" src="icon.png" />
+ <icon gap:platform="blackberry" gap:state="hover" src="icon.png" />
+ <icon gap:platform="webos" src="icon.png" />
+ <icon gap:platform="winphone" src="icon.png" />
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author href="http://www.rovel.bg" email="ddilov@dir.bg">
+        Daniel Dilov
+    </author>
+
+</widget>
+
+
